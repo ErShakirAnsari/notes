@@ -1,0 +1,14 @@
+# Maven - Notes
+
+### How to add a local jar to your maven project:
+
+<dependency>
+   <groupId>nsdl.esign</groupId>
+   <artifactId>nsdl-app</artifactId>
+   <version>1.0</version>
+   <scope>system</scope>
+  <systemPath>${basedir}/lib/nsdle_sign_v1.4.jar</systemPath>
+</dependency>
+
+${basedir} is location where is your pom.xml file
+
