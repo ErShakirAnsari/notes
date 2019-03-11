@@ -1,0 +1,2 @@
+How to setup Raspberry Pi as access point, hotspot and configure usb and shared storage easily.
+https://www.youtube.com/watch?v=lbsX3jiG1RA
