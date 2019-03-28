@@ -1,5 +1,7 @@
 How to setup Raspberry Pi as access point, hotspot and configure usb and shared storage easily.
-https://www.youtube.com/watch?v=lbsX3jiG1RA
 
+1) https://www.youtube.com/watch?v=lbsX3jiG1RA
 
-https://raspberrypi.stackexchange.com/questions/95840/how-to-create-local-hotspot-on-raspberry-pi-3b-to-share-files-on-android/95846#95846
+2) https://raspberrypi.stackexchange.com/questions/95840/how-to-create-local-hotspot-on-raspberry-pi-3b-to-share-files-on-android/95846#95846
+
+3) https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all
