@@ -6,3 +6,5 @@ How to setup Raspberry Pi as access point, hotspot and configure usb and shared 
 
 3) http://web.archive.org/save/https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all
 
+4) https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
+
