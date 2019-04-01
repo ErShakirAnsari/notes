@@ -8,6 +8,8 @@ How to setup Raspberry Pi as access point, hotspot and configure usb and shared 
 
 4) https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
 
+5) https://raspberrypi.stackexchange.com/questions/38723/ntfs-usb-hdd-read-only-how-to-enable-write-permissions
+
 -------------------------------------------
 File servlet
 1) http://balusc.omnifaces.org/2009/02/fileservlet-supporting-resume-and.html
