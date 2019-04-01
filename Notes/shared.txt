@@ -8,3 +8,10 @@ How to setup Raspberry Pi as access point, hotspot and configure usb and shared 
 
 4) https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
 
+-------------------------------------------
+File servlet
+1) http://balusc.omnifaces.org/2009/02/fileservlet-supporting-resume-and.html
+2) http://showcase.omnifaces.org/servlets/FileServlet
+3) https://github.com/omnifaces/omnifaces/blob/3.2/src/main/java/org/omnifaces/servlet/FileServlet.java
+-------------------------------------------
+
