@@ -1,3 +1,12 @@
+
+
+The way that I've seen most people do it (have a look on the Raspberry Pi forums), and have done myself with success is using /etc/rc.local.
+
+All you need to do here is put ./myscript in the rc.local text file. If it's in python, put python myscript.py.
+
+This literally is "a simple solution, (like dropping my script in some "startup" directory or something similar)"- maybe search on the forums when you're having questions as well, this solution came up on the first 4 results of a google search!
+__________________________________________________________________________________________________________________________________________
+
 How to setup Raspberry Pi as access point, hotspot and configure usb and shared storage easily.
 
 1) https://www.youtube.com/watch?v=lbsX3jiG1RA
