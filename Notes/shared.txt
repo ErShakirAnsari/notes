@@ -1,5 +1,10 @@
 
 
+SELECT `TABLE_SCHEMA`, `TABLE_NAME`
+FROM `information_schema`.`KEY_COLUMN_USAGE`
+WHERE `CONSTRAINT_NAME` IN ('FK_USER');
+__________________________________________________________________________________________________________________________________________
+
 The way that I've seen most people do it (have a look on the Raspberry Pi forums), and have done myself with success is using /etc/rc.local.
 
 All you need to do here is put ./myscript in the rc.local text file. If it's in python, put python myscript.py.
