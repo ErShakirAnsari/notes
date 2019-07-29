@@ -1,4 +1,6 @@
 
+https://www.html5rocks.com/en/tutorials/cors/
+__________________________________________________________________________________________________________________________________________
 
 SELECT `TABLE_SCHEMA`, `TABLE_NAME`
 FROM `information_schema`.`KEY_COLUMN_USAGE`
