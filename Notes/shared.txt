@@ -1,3 +1,12 @@
+
+
+
+________________________________________________________________________________________________________________________________________
+
+logger.info("${classVar editable=false currClassName default=getClass()}.${methodName currMethodName editable="false"}() - ");
+private static final ${LOGGER_TYPE type="org.apache.log4j.Logger" default="Logger" editable=false} logger 	=	${LOGGER_FACTORY type="org.apache.log4j.Logger" default="LoggerFactory" editable=false}.getLogger(${CLASS editable="false" currClassName}.class);
+________________________________________________________________________________________________________________________________________
+
 https://reactjsexample.com/an-image-lightbox-component-for-reactjs/
 ________________________________________________________________________________________________________________________________________
 
