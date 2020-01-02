@@ -1,3 +1,20 @@
+
+import javax.ws.rs.core.Context;
+import javax.ws.rs.Path;
+import javax.ws.rs.GET;
+import com.sun.jersey.api.view.Viewable;
+
+
+@GET
+@Path("/index")
+public Viewable index(
+    @Context HttpServletRequest request,
+    @Context HttpServletResponse response) throws Exception
+{
+  request.setAttribute("key", "value");
+  return new Viewable("/jsps/someJsp.jsp", null);
+}
+
 https://www.mkyong.com/tutorials/jax-rs-tutorials/
 JAX-RS. 
 http://makble.com/how-to-use-tuckey-urlrewritefilter
