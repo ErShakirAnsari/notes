@@ -15,7 +15,8 @@ public Viewable index(
   return new Viewable("/jsps/someJsp.jsp", null);
 }
 
-https://riptutorial.com/jersey/example/30679/jersey-mvc-hello-world
+https://web.archive.org/web/20200102122738/https://riptutorial.com/jersey/example/30679/jersey-mvc-hello-world
+
 https://www.mkyong.com/tutorials/jax-rs-tutorials/
 JAX-RS. 
 http://makble.com/how-to-use-tuckey-urlrewritefilter
