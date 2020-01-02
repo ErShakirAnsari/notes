@@ -1,3 +1,4 @@
+https://www.mkyong.com/tutorials/jax-rs-tutorials/
 JAX-RS. 
 http://makble.com/how-to-use-tuckey-urlrewritefilter
 https://github.com/paultuckey/urlrewritefilter
