@@ -22,6 +22,8 @@ https://www.mkyong.com/tutorials/jax-rs-tutorials/
 JAX-RS. 
 http://makble.com/how-to-use-tuckey-urlrewritefilter
 https://github.com/paultuckey/urlrewritefilter
+
+http://tuckey.org/urlrewrite/manual/3.0/guide.html
 ________________________________________________________________________________________________________________________________________
 
 public static <T> T find(Class<T> tableClass, Object primaryKey)
