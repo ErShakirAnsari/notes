@@ -1,4 +1,5 @@
-
+https://dzone.com/articles/discovering-java-annotations
+________________________________________________________________________________________________________________________________________
 import javax.ws.rs.core.Context;
 import javax.ws.rs.Path;
 import javax.ws.rs.GET;
