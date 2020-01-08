@@ -1,3 +1,9 @@
+List<SclPostCO> sclPostCOList = sclPostList
+	.stream()
+	.filter(sclPost -> AppValidate.isActive(sclPost))
+	.map(sclPost -> sclPost.getCO(userId, true, false, true, true, false, null, userTeacherInformation))
+	.collect(Collectors.toList());
+________________________________________________________________________________________________________________________________________
 https://dzone.com/articles/discovering-java-annotations
 ________________________________________________________________________________________________________________________________________
 import javax.ws.rs.core.Context;
