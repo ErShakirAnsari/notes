@@ -30,7 +30,7 @@ For some human readable information about your project and a pointer to your pro
 <licenses>
 	<license>
 		<name>GNU General Public License v3.0</name>
-		<url>https://github.com/jaxer-in/jaxer-core/raw/main/LICENSE</url>
+		<url>https://raw.githubusercontent.com/jaxer-in/jaxer-core/main/LICENSE</url>
 	</license>
 </licenses>
 ```
