@@ -1,18 +1,31 @@
 ## How to push artifacts in maven central repo
 
-### Step 01
-The first thing to do is to make sure that your pom.xml file includes all of the required information:
+### Requesting Access to Maven Central
+You need to register an account over at [Sonatype JIRA](https://issues.sonatype.org/secure/Dashboard.jspa) and create a [new issue](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134) for this.
+
+Feel free to use the issue I opened as a [template](https://issues.sonatype.org/browse/OSSRH-73233), but make sure to fill-in all the required fields with your data.
+
+### Step 01 Add required tags inside *(&lt;project&gt;)* your pom.xml
+
+#### Project Name, Description and URL
+For some human readable information about your project and a pointer to your project website for more, we require the presence of `name`, `description` and `url`.
+```
+<name>Jaxer core library</name>
+<description>Simple and light weight library to overcome complex task</description>
+<url>https://github.com/jaxer-in/jaxer-core</url>
+```
+
+#### Supply Javadoc and Sources
+```
+<groupId>io.github.jaxer-in</groupId>
+<artifactId>jaxer-core</artifactId>
+<version>0.0.3</version>
+<packaging>jar</packaging>
+```
 
 
-**Inside project tag**
 
-	- licenses
-	- developers
-	- SCM
-	- distributionManagement
-
-**Example**
-
+#### License Information
 ```
 <licenses>
 	<license>
@@ -20,7 +33,13 @@ The first thing to do is to make sure that your pom.xml file includes all of the
 		<url>https://github.com/jaxer-in/jaxer-core/raw/main/LICENSE</url>
 	</license>
 </licenses>
+```
+[More you can find here](https://central.sonatype.org/publish/requirements/#license-information)
 
+
+
+#### Distribution Informations
+```
 <distributionManagement>
 	<snapshotRepository>
 		<id>ossrh</id>
@@ -31,20 +50,33 @@ The first thing to do is to make sure that your pom.xml file includes all of the
 		<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 	</repository>
 </distributionManagement>
+```
 
+
+
+#### Developer Informations
+```
 <developers>
 	<developer>
 		<name>Shakir Ansari</name>
 		<email>ershakiransari@outlook.com</email>
 	</developer>
 </developers>
+```
 
+
+#### SCM Information
+The connection to your source control system is another required element. The syntax used depends on the version control system used. Connection details the read only connection, while developerConnection details read and write access connection details.
+The url contains the URL for a web front end to your SCM system.
+```
 <scm>
 	<connection>scm:git:git://github.com:jaxer-in/jaxer-core.git</connection>
 	<developerConnection>scm:git:ssh://github.com:jaxer-in/jaxer-core.git</developerConnection>
 	<url>https://github.com/jaxer-in/jaxer-core.git/tree/main</url>
 </scm>
 ```
+[More you can find here](https://central.sonatype.org/publish/requirements/#scm-information)
+
 
 
 ### Step 02 - Plugins for
