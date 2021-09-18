@@ -125,6 +125,7 @@ Add below listes pluging inside &lt; build &gt; inside &lt; plugins &gt;
 ```
 
 6) maven-release-plugin
+
 You'll learn about ${gpg.passphrase} in following step
 ```
 <plugin>
