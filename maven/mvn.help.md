@@ -8,6 +8,12 @@ OR
 ```
 mvn help:effective-pom -Doutput=< FILE >
 ```
+OR
+```
+mvn help:effective-pom -Doutput=effective-pom.xml -Dverbose=true
+```
+
+---
 
 ```
 mvn help:all-profiles
