@@ -1,0 +1,5 @@
+
+
+```
+mvn help:effective-pom
+```
