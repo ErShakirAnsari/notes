@@ -1,5 +1,0 @@
-rm wars/api1.war
-cp wars/api-1dec.war wars/api1.war
-rm webapps/api1.war
-rm -rf webapps/api1
-cp wars/api1.war webapps/
